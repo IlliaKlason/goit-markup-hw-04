@@ -347,7 +347,8 @@ body {
 .client-icon {
   fill: currentColor;
 }
-.client-link:hover {
+.client-link:hover,
+.client-link:focus {
   border: 1px solid var(--accent-color);
   color: var(--accent-color);
 }
@@ -465,7 +466,6 @@ body {
 }
 .portfolio-list .item:hover,
 .portfolio-list .item:focus {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
